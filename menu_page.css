@@ -1,0 +1,344 @@
+
+body{
+    margin: 0;
+    background-color: #DBD9D5;
+    background-image: url("Images/menuPageBackground.jpg");
+    background-size: cover;
+}
+
+.page-header{
+    margin-top: 0;
+    text-align: center;
+    font-size: 5vh;
+    font-family: "Jolly Lodger", system-ui;
+    color: #DBD9D5;
+}
+
+.page-header span{
+    color: rgb(207, 61, 35);
+}
+
+.header{
+    height: 4vh;
+    width: 100%;
+}
+
+.bar1 {
+    background-color: rgba(179, 61, 40, 0.644);
+    width: 93%;
+    height: 7vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    position: relative;
+    padding: 5px;
+}
+
+.bar1 a{
+    text-decoration: none;
+    color: white;
+    margin: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    font-size: 2.5vh;
+    transition: all ease-in-out 0.3s;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.bar1 a:hover{
+    background-color: #E5B141;
+}
+
+.bar1 a::after{
+    background-color: #E5B141;
+}
+
+.bar1 .searchBar{
+    height: 3vh;
+    width: 40vh;
+    border-radius: 1vh;
+    margin: 1.5vh;
+    position: absolute;
+    right: 15vh;
+    font-size: 2vh;
+    padding: 3px;
+}
+.searchButton{
+    height: 4vh;
+    width: 10vh;
+    border-radius: 0.5vh;
+    margin: 1.5vh;
+    position: absolute;
+    right: 3vh;
+    background-color: #E5B141;
+    font-size: 2vh;
+    border: 0px;
+    cursor: pointer;
+}
+.content{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-top: 5vh;
+    margin-bottom: 40px;
+}
+
+  .content .section{
+    background-color: rgba(0, 0, 0, 0.766);
+    height: 40vh;
+    width: 50vh;
+    border-radius: 2vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+    border: 1px solid white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content .section:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+
+.addButton{
+  height: 7vh;
+  width: 7vh;
+  position: absolute;
+  right: 5vh;
+  bottom: 1vh;
+  border-radius: 50px;
+  background: url('Images/addIcon.png');
+  background-size: cover;
+  margin-bottom: 4vh;
+  cursor: pointer;
+}
+
+.content .section .addButton:hover{
+  background-color: #DBD9D5;
+  border-radius: 50px;
+}
+.content .section h3{
+  font-size: 3vh;
+  margin-top: 2vh;
+  margin-left: 3vh;
+  font-family: "Poppins", sans-serif;
+}
+.content .section p{
+  font-size: 1.8vh;
+  margin-top: 3vh;
+  margin-left: 3vh;
+  width: 80%;
+  position: relative;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+
+}
+.content .section .portions{
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 25vh;
+}
+.content .section .portions .portion{
+  background-color: #E5B141;
+  border-radius: 5vh;
+  height: 6vh;
+  width: 6vh;
+  text-align: center;
+  font-size: 3.5vh;
+  font-weight: bold;
+}
+
+.content .section .portions .portion:hover{
+  background-color: beige;
+  color: black;
+}
+
+
+.portion {
+  margin-bottom: 4vh;
+  font-size: 3vh;
+  margin-top: 0.8vh;
+}
+
+.content .section h4{
+  position: absolute;
+  bottom: 2vh;
+  left: 3vh;
+  font-size: 3vh;
+  margin-bottom: 5vh;
+  font-family: "Poppins", sans-serif;
+}
+.content .section h4{
+    position: absolute;
+    bottom: 2vh;
+    left: 3vh;
+    font-size: 3vh;
+    margin-bottom: 5vh;
+}
+.content .moreButton{
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5vh;
+    border: 0.1vh solid black;
+    background-color: rgb(99, 215, 99);
+    color: white;
+    font-size: 1.8vh;
+    position: absolute;
+    bottom: 0vh;
+
+}
+
+
+@media screen and (max-width:920px) {
+    .bar1 .searchBar{
+        width: 20vh;
+    }
+
+    
+    .content .section{
+        height: 30vh;
+        width: 40vh;    
+    }
+    .content .section .image{
+        height: 10vh;
+        width: 10vh;
+    }
+    .addButton{
+        height: 5vh;
+        width: 5vh;
+        position: absolute;
+        right: 3vh;
+        bottom: 1vh;
+        border-radius: 50px;
+        background: url('Images/addIcon.png');
+        background-size: cover;
+        margin-bottom: 3.4vh;
+        cursor: pointer;
+    }
+    
+    .content .section h3{
+        font-size: 2vh;
+    }
+    .content .section p{
+        font-size: 1.5vh;
+    }
+    .content .section .portions{
+        bottom: 5px;
+        left: 25vh;
+    }
+    .content .section .portions .portion{
+        height: 4vh;
+        width: 4vh;
+    }
+    
+    .portion{
+        margin-bottom: 4vh;
+        font-size: 2vh;
+    }
+    
+    
+    .content .section h4{
+        font-size: 1.7vh;
+        margin-bottom: 4vh;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .bar1 a{
+        font-size: 1.5vh;
+        margin: 0;
+    }
+
+    .bar1{
+        height: 4vh;
+    }
+    
+    .bar1 .searchBar{
+        height: 2vh;
+        margin-top: 0.5vh;
+    }
+
+    .bar1 .searchButton{
+        height: 3vh;
+        margin-top: 0.7vh;
+    }
+}
+
+   
+
+@media screen and (max-width:630px) {
+    .content{
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:620px){
+    .content .section{
+        height: 30vh;
+        width: 40vh;    
+    }
+    
+    
+    .addButton{
+        height: 5vh;
+        width: 5vh;
+        position: absolute;
+        right: 6vh;
+        bottom: 1vh;
+        border-radius: 50px;
+        background: url('Images/addIcon.png');
+        background-size: cover;
+        margin-bottom: 2.2vh;
+        cursor: pointer;
+    }
+    
+    .content .section h3{
+        font-size: 2vh;
+    }
+    .content .section p{
+        font-size: 1.5vh;
+    }
+    .content .section .portions{
+        bottom: 5px;
+        left: 20vh;
+    }
+    .content .section .portions .portion{
+        height: 4vh;
+        width: 4vh;
+    }
+    
+    .portion{
+        margin-bottom: 3vh;
+    }
+    
+    .portion h1{
+        font-size: 1vh;
+    }
+    
+    .content .section h4{
+        font-size: 1.7vh;
+        margin-bottom: 1vh;
+    }
+} 
+
+@media screen and (max-width:570px) {
+    .bar1 a{
+        font-size: 1vh;
+    }
+
+    .bar1 .searchBar{
+        width: 15vh;
+    }
+}

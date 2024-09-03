@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: #DBD9D5;
+    background-image: url("Images/cartPageBackground.jpg");
+    background-size: cover;
+}
+
+.cart-items{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    color: #DBD9D5;
+    background-color: #333333c6;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.item-table th, .item-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+.item-table th {
+    color: #DBD9D5;
+    text-transform: uppercase;
+}
+
+.item-table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+
+.item-table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.item-table .remove-button {
+    cursor: pointer;
+}
+
+.cart-totals{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10vh;
+    text-align: center;
+    color: #DBD9D5;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.cart-totals table{
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.cart-totals td{
+    padding: 10px;
+    margin: 3px;
+
+}
+
+.cart-totals tr{
+    border-bottom: 1px solid #DBD9D5;
+    background-color: #333333b9;
+}
+
+.cart-totals h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cart-totals button{
+    background-color: #199B74;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+
+@media screen and (max-width:800px){
+    .item-table table {
+        font-size: 15px;
+    }
+
+    .cart-totals h2{
+        font-size: 15px;
+    }
+
+    .cart-totals table{
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .cart-totals button{
+        width: 50%;
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:660px){
+
+    .cart-totals table{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:550px){
+
+    .cart-totals table{
+        margin-left: 10px;
+    }
+}

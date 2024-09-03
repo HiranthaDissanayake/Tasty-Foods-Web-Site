@@ -1,0 +1,484 @@
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+
+.middle {
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.427);
+  animation: changeBackground 20s infinite; /* Adjust the duration as needed */
+}
+
+@keyframes changeBackground {
+  0% {background-image: url("Images/biriyani5.jpg");}
+  12% {background-image: url("Images/sprite1.jpg");}
+  24% {background-image: url("Images/cola.jpg");}
+  36% {background-image: url("Images/pasta5.jpg");}
+  48% {background-image: url("Images/rice5.jpg");}
+  60% {background-image: url("Images/backgroundCover.jpg");}
+  72% {background-image: url("Images/pepsi.jpg");}
+  84% {background-image: url("Images/backgroundCover.jpg");} /* Repeat one image for continuity */
+  100% {background-image: url("Images/biriyani5.jpg");} /* Ensure smooth loop */
+}
+
+  .catagory{
+    height: 40vh;
+    background-color: black;
+    margin-bottom: 0;
+    color: #DBD9D5;
+  }
+
+  .hr1{
+    margin-top: 0;
+    height: 1px;
+    width: 90%;
+    background-color: rgba(128, 128, 128, 0.421);
+  }
+
+  .top-foods{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .texts{
+    position: absolute;
+    top: 13vh;
+    left: 5vh;
+    justify-content: center;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 5vh;
+    color: #DBD9D5;
+    letter-spacing: 2px;
+  }
+
+  .texts:hover{
+    font-size: 5.5vh;
+    cursor: pointer;
+
+  }
+
+  .content1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vh;
+    height: 25vh;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 50px;
+    position: relative;
+  }
+
+  .content1 img{
+    border-radius: 30px;
+    width: 20vh;
+    height: 20vh;
+  }
+
+  .content1 img:hover{
+    border: 5px solid #199B74;
+    cursor: pointer;
+    border-radius: 100px;
+
+  }
+
+  
+  
+  .cata{
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+
+
+  .text{
+    text-align: center;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: rgb(182, 44, 20);
+  }
+
+  .button-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  .b1{
+    padding: 5px;
+    background-color: #199B74;
+    color: white;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .b1:hover{
+    opacity: 70%;
+  }
+
+
+
+
+  .b3{
+    background-color:#199B74;
+    color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    margin-left: 2vh;
+    width: 25vh;
+    height: 6vh;
+    font-size: 2.5vh;
+  }
+
+  .b3:hover{
+    opacity: 70%;
+    cursor: pointer;
+  }
+
+
+
+  .text-logo{
+    color: white;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  .transparent-box{
+    width: 120vh;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 25px;
+    padding-left: 20px;
+    position: absolute;
+    color: white;
+  }
+
+
+  .transparent-box h1{
+    font-family: "IM Fell Great Primer SC", serif;
+    font-size: 5vh;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .transparent-box p{
+    font-size: 2vh;
+    padding: 20px;
+    margin-top: 0;
+    text-align: justify;
+  }
+
+  .content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-top: 5vh;
+    background-image: url("Images/topMealsBackground.jpg");
+    background-size: cover;
+}
+
+  .content .section{
+    background-color: rgba(0, 0, 0, 0.777);
+    height: 40vh;
+    width: 50vh;
+    border-radius: 2vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    color: white;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.content .section:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/*.content .section .image{
+  height: 17vh;
+  width: 17vh;
+  position: absolute;
+  right: 1.5vh;
+  top: 1.5vh;
+  border-radius: 1.5vh;
+  background-size: cover;
+}*/
+
+.content .section .addButton{
+  height: 7vh;
+  width: 7vh;
+  position: absolute;
+  right: 5vh;
+  bottom: 1vh;
+  border-radius: 50px;
+  background: url('Images/addIcon.png');
+  background-size: cover;
+  margin-bottom: 4vh;
+  cursor: pointer;
+}
+
+.content .section .addButton:hover{
+  background-color: #DBD9D5;
+  border-radius: 50px;
+}
+.content .section h3{
+  font-size: 3vh;
+  margin-top: 2vh;
+  margin-left: 3vh;
+  font-family: "Poppins", sans-serif;
+}
+.content .section p{
+  font-size: 1.8vh;
+  margin-top: 3vh;
+  margin-left: 3vh;
+  width: 80%;
+  position: relative;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+
+}
+.content .section .portions{
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 25vh;
+}
+.content .section .portions .portion{
+  background-color: #E5B141;
+  border-radius: 5vh;
+  height: 6vh;
+  width: 6vh;
+  text-align: center;
+  margin-bottom: 4vh;
+  font-size: 3vh;
+  margin-top: 0.8vh;
+  font-weight: bold;
+}
+
+.content .section .portions .portion:hover{
+  background-color: beige;
+  color: black;
+}
+
+
+.content .section h4{
+  position: absolute;
+  bottom: 2vh;
+  left: 3vh;
+  font-size: 3vh;
+  margin-bottom: 5vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.content .section h5{
+  position: absolute;
+  left: 3vh;
+  font-size: 2vh;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0;
+  color: #E5B141;
+}
+
+
+
+
+@media screen and (max-width:930px){
+
+
+  .texts{
+    top: 10vh;
+    left: 5vh;
+    font-size: 3vh;
+  }
+
+  .texts:hover{
+    font-size: 3.5vh;
+  }
+
+  .content1{
+    width: 17vh;
+    height: 17vh;
+  }
+
+  .content1 img{
+    border-radius: 30px;
+    width: 15vh;
+    height: 15vh;
+  }
+
+  .cata{
+    font-size: 4vh;
+  }
+
+  .text{
+   font-size: 4vh;
+  }
+
+
+  .text-logo{
+    color: white;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+  }
+
+
+  .transparent-box{
+    width: 80vh;
+    height: 50vh;
+  }
+
+
+  .transparent-box h1{
+    font-size: 3vh;
+  }
+
+  .transparent-box p{
+    font-size: 1.7vh;
+  }
+
+  .content{
+    height: auto;
+}
+
+
+}
+
+
+@media screen and (max-width:620px){
+.content .section{
+    height: 30vh;
+    width: 40vh;    
+}
+
+.b3{
+  margin-left: 2vh;
+  width: 20vh;
+  height: 5vh;
+  font-size: 2.0vh;
+  margin-top: 0;
+}
+
+.content .section .addButton{
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    right: 6vh;
+    bottom: 1vh;
+    border-radius: 50px;
+    background: url('Images/addIcon.png');
+    background-size: cover;
+    margin-bottom: 2.2vh;
+    cursor: pointer;
+}
+
+.content .section h3{
+    font-size: 2vh;
+}
+.content .section p{
+    font-size: 1.5vh;
+}
+.content .section .portions{
+    bottom: 5px;
+    left: 20vh;
+}
+.content .section .portions .portion{
+    height: 4vh;
+    width: 4vh;
+}
+
+.portion{
+    margin-bottom: 2.3vh;
+}
+
+.portion h1{
+    font-size: 2vh;
+}
+
+.content .section h4{
+    font-size: 1.7vh;
+    margin-bottom: 1vh;
+}
+
+.transparent-box{
+  width: 60vh;
+  height: 40vh;
+}
+
+
+.transparent-box h1{
+  font-size: 2.5vh;
+}
+
+.transparent-box p{
+  font-size: 1.5vh;
+  margin-bottom: 0;
+}
+
+.texts{
+  top: 7vh;
+  left: 2.8vh;
+  font-size: 2vh;
+}
+
+.texts:hover{
+  font-size: 2.5vh;
+}
+
+.content1{
+  width: 15vh;
+  height: 15vh;
+}
+
+.content1 img{
+  width: 11vh;
+  height: 11vh;
+}
+
+}
+
+
+
+
+
+

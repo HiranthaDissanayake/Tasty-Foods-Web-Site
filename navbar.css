@@ -1,0 +1,218 @@
+nav{
+    display: flex;
+    background-color: #199B74;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.logo h2{
+    color: white;
+    font-family: "Kavoon", serif;
+    letter-spacing: 3px;
+}
+
+
+.navbar_sections{
+    text-decoration: none;
+    margin-left: 500px;
+}
+
+.navbar_sections ul{
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    display: flex;
+
+}
+
+.navbar_sections ul li{
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+.navbar_sections a{
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.navbar_sections a:hover{
+    background-color: #E5B141;
+}
+
+
+
+.cart_signin{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.cart_signin img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.vertical-line{
+    width: 2px;
+    height: 50px;
+    background-color: white;
+}
+
+.cart_signin button{
+    background-color: #E5B141;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 20px;
+    color: black;
+    margin-left: 5px;
+    cursor: pointer;
+    font-family: "Inria Sans", sans-serif;
+}
+
+
+@media screen and (max-width: 1320px){
+    .navbar_sections{
+        margin-left: 200px;
+    }
+
+}
+
+@media screen and (max-width: 990px){
+    .navbar_sections{
+        margin-left: 100px;
+    }
+
+    .logo h2{
+        font-size: 20px;
+    }
+
+    .logo img{
+        width: 50px;
+    }
+
+    .cart_signin button{
+        width: 12vh;
+        height: 5vh;
+    }
+
+    .cart_signin img{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 865px){
+
+    .logo h2{
+        font-size: 15px;
+    }
+
+    .cart_signin button{
+        width: 10vh;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .navbar_sections ul{
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 760px){
+
+    .navbar_sections{
+        margin-left: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+
+    .navbar_sections a{
+        padding: 5px;
+        margin: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 630px){
+
+    .navbar_sections a{
+        padding: 5px;
+        margin: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 590px){
+
+    .navbar_sections a{
+        padding: 5px;
+        margin: 1px;
+    }
+    
+}
+
+@media screen and (max-width: 560px){
+
+    .logo h2{
+        visibility: hidden;
+    }
+
+    .navbar_sections{
+        margin-left: -100px;
+    }
+    
+    .navbar_sections ul{
+        font-size: small;
+    }
+
+    nav{
+        height: 7vh;
+    }
+
+    .cart_signin button{
+        height: 4vh;
+        font-size: small;
+    }
+
+    .cart_signin img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .vertical-line{
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 410px){
+
+    .navbar_sections ul{
+        font-size: 10px;
+    }
+
+    .logo img{
+        width: 30px;
+    }
+}

@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    align-items: center;
+    background-color: #DBD9D5;
+    background-image: url("Images/deleveryPageBackground.jpg");
+    background-size: cover;
+}
+
+form {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #DBD9D5;
+
+}
+
+table input{
+    margin: 5px;
+}
+
+
+input[type="text"], 
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #199B74;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #161111b5;
+    color: white;
+}
+    
+.cart-totals{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.cart-totals table{
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.cart-totals td{
+    padding: 10px;
+    margin: 0;
+}
+
+.cart-totals tr{
+    border-bottom: 1px solid #DBD9D5;
+    background-color: #333333a8;
+}
+
+.cart-totals h2{
+    text-align: center;
+    background-color: #3333338d;
+}
+
+.cart-totals button{
+    background-color: #199B74;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+
