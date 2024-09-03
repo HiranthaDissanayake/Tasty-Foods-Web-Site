@@ -4,7 +4,11 @@ This project is a web application developed for a restaurant to streamline the p
 
 Features:
 Food Browsing: Users can explore a wide range of food items available on the menu.
+
 Search Functionality: Quickly find specific dishes using the search feature.
+
 Order Placement: Simple and intuitive order form for users to input their contact and delivery details.
+
 Customer Reviews: Users can leave feedback and rate their dining experience.
+
 This repository contains the codebase and resources required to deploy and run the website. Contributions and improvements are welcome!
